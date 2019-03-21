@@ -1,0 +1,26 @@
+Arrays:
+------
+
+types in python:
+used to grab things faster using indexing or known detail like hash map
+1. list - updates and all, 
+2. tuple - immutable so faster processing, used for longer iterations
+3. dict - accessing by details
+
+List
+----
+
+.sort() and sorted()
+.sort() is inplace and so doesn't return any. sorted retunrs new one. 
+
+
+Dict()
+------
+
+.keys()
+.items()
+.values()
+
+all returns list
+
+

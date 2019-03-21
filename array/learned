@@ -1,0 +1,41 @@
+# see if the mathematical approach is correct or not in terms of breaking whenever the result is out. If so then start working with the edge cases. 
+
+1. spiral matrix
+
+if not able to track doesn't mean to do complex with entire prob but can do with that part (tracking)
+
+2. max contiguous sub array
+no need of fiding the average all the time, once and then later do the add of last and sub first to maintain sum adn store the max just the needed info as / is anyways cant be avoided 
+
+
+3. max chunk :
+need to be careful while having if conitions ORDER
+
+way of writing program
+----------------------
+
+write algo and or write comments
+down the comments code the program
+
+also best way to understand algo is, does it use all the resources we are providing 
+are we repeating the things like calculations and all while solution
+
+taking advantage of array ordered looping for sortion
+
+
+continuous vs contiguous
+------------------------
+
+continuous is like referrering to the numericla order
+contiguous is the order from the given array sequentially
+
+********************
+
+if the logic is right enough, the algos will eliminate the unnecessary stuff. 
+
+********************
+
+
+
+
+# unneccesary sorting results in high time, avoid is better especially when the array is huge length
