@@ -1,0 +1,2 @@
+better way of representing the graph is to have dic as adjancy list as if it is for matrix it would be sparse
+# may be can remove the duplicates
