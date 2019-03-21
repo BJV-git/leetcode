@@ -1,0 +1,56 @@
+* - its about the paving a path for analysis
+* - first lets solve the problem for len 1 ro smaller and then understand for extensions or bigger one show it changes
+* - can be done in form of array, like if we are in a stage means that we ahd the best till that. 
+
+
+# hwo to identify the given problem can be solved using dynamic programming
+-- when need to try all the possibilities and store the best for the next
+
+
+**## - when we are adding the new input or extending, the algo should be able to use the previous all trails to use the previous one to predict teh next one with out going again through all the random stuff
+
+# problem solving
+
+---- how to solve the conditions that arise when a new input is added to the input, if can carry the best to the next then it has to be a seq and if not need to use the matrix to store values
+
+
+##** so need to learn how to combine the individual results one by one is a good thing to be learned
+
+
+
+
+while adding the extra need to know what remains constant and what changes, i.e for MCM - the matrices change, for KNPSCK - weight remain same
+but the items addup
+
+simple can think of a variant of the given problem and solve it  - (may be the condition remians same)
+
+
+so need to consider all the possibilities, unlike the greedy approach as it doenn't go futher when met the best
+
+
+
+MCM
+---
+
+so its about which pattern or permutation can reault in minimum cost
+* - we find the best for len in increasing manner and then we go till the lenght of the given problem
+
+
+Knapsack 
+--------
+
+we try to take the advantage of the max weight and so we come in increasing order ??? (what if both are not increasing in parallel)
+
+ans - ???
+
+we try to get one and see after subtracting the weight from remianing weight whats the max obtainable
+
+
+
+LCS
+---
+
+# logic: can consider max of len among both, then in while loop start with the larger one and see if can find the min one
+
+# better way can be to have a dict of both left adn right. first we form the numbers adn indices 
+we append the founds to result adn if happen to get next a less than other index we replace it
